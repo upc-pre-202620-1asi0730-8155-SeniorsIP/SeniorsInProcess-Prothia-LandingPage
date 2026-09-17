@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prothia | Biomechanical Telemetry &amp; Rehabilitation Platform</title>
+  <meta name="description" content="Prothia connects amputee patients, rehabilitation clinics, and orthopedic centers to optimize remote tracking, analyze biomechanical telemetry, and manage prosthetic maintenance.">
+  <meta name="keywords" content="Prothia, biomechanical telemetry, prosthetic rehabilitation, amputee patients, smart prosthetics, orthopedic maintenance, digital health, gait analysis">
+  <meta name="author" content="SeniorsInProcess">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prothia | Biomechanical Telemetry &amp; Rehabilitation Platform">
+  <meta property="og:description" content="Prothia connects amputee patients, rehabilitation clinics, and orthopedic centers to optimize remote tracking, analyze biomechanical telemetry, and manage prosthetic maintenance.">
+  <meta property="og:image" content="assets/Logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prothia | Biomechanical Telemetry &amp; Rehabilitation Platform">
+  <meta name="twitter:description" content="Prothia connects amputee patients, rehabilitation clinics, and orthopedic centers to optimize remote tracking, analyze biomechanical telemetry, and manage prosthetic maintenance.">
+  <meta name="twitter:image" content="assets/Logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="assets/Logo.png">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="topbar" id="topbar">
+    <div class="topbar-container">
+
+      <a href="#hero" class="brand-logo" aria-label="Prothia - Biomechanical Telemetry">
+        <img src="assets/Logo.png" alt="Prothia Logo" class="brand-logo-img">
+        <div class="brand-text-wrap">
+          <span class="brand-title">Prothia</span>
+          <span class="brand-subtitle" data-i18n="brandSubtitle">Biomechanical Monitoring</span>
+        </div>
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links-wrap">
+          <li><a href="#hero" class="nav-link active" data-i18n="navStart">Home</a></li>
+          <li><a href="#desafio" class="nav-link" data-i18n="navChallenge">The Challenge</a></li>
+          <li><a href="#soluciones" class="nav-link" data-i18n="navSolutions">Solutions</a></li>
+          <li><a href="#caracteristicas" class="nav-link" data-i18n="navFeatures">Features</a></li>
+          <li><a href="#planes" class="nav-link" data-i18n="navPricing">Plans</a></li>
+          <li><a href="#nosotros" class="nav-link" data-i18n="navAbout">About Us</a></li>
+          <li><a href="#faq" class="nav-link" data-i18n="navFaq">FAQ</a></li>
+          <li><a href="#contacto" class="nav-link" data-i18n="navContact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+
+        <button class="lang-selector-btn" id="langToggleBtn" aria-label="Switch language to Spanish" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span class="lang-badge lang-en active">EN</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-badge lang-es">ES</span>
+        </button>
+
+        <a href="javascript:void(0)" class="nav-cta-btn btn-register-action">
+          <span data-i18n="ctaRegister">Register Now</span>
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú de navegación móvil">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="#hero" class="mobile-nav-link" data-i18n="navStart">Home</a>
+    <a href="#desafio" class="mobile-nav-link" data-i18n="navChallenge">The Challenge</a>
+    <a href="#soluciones" class="mobile-nav-link" data-i18n="navSolutions">Solutions</a>
+    <a href="#caracteristicas" class="mobile-nav-link" data-i18n="navFeatures">Features</a>
+    <a href="#planes" class="mobile-nav-link" data-i18n="navPricing">Plans</a>
+    <a href="#nosotros" class="mobile-nav-link" data-i18n="navAbout">About Us</a>
+    <a href="#faq" class="mobile-nav-link" data-i18n="navFaq">FAQ</a>
+    <a href="#contacto" class="mobile-nav-link" data-i18n="navContact">Contact</a>
+    <button class="btn-primary btn-register-action" style="width: 100%; margin-top: 1rem;" data-i18n="ctaRegister">
+      Register Now
+    </button>
+    <div class="mobile-lang-box">
+      <button class="lang-selector-btn" id="mobileLangToggleBtn" aria-label="Switch language to Spanish" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="2" y1="12" x2="22" y2="12"></line>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+        </svg>
+        <span class="lang-badge lang-en active">EN</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-badge lang-es">ES</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="hero-container" id="hero">
+
+    <div class="hero-bg-wrapper" id="bgWrapper">
+      <canvas id="sequenceCanvas" class="hero-sequence-canvas"></canvas>
+      <div class="hero-gradient-overlay"></div>
+    </div>
+
+    <main class="hero-content-wrapper">
+      <div class="hero-left-panel">
+
+        <div class="hero-tag">
+          <span class="hero-tag-line"></span>
+          <span data-i18n="heroTag">Digital Health - Biomechanics</span>
+        </div>
+
+        <h1 class="section-title" data-i18n-html="heroTitle">
+          Platform for <em>biomechanical telemetry</em> and <em>rehabilitation</em>
+        </h1>
+
+        <p class="section-copy" data-i18n="heroCopy">
+          Connecting amputee patients, rehabilitation clinics, and orthopedic centers to optimize remote tracking, analyze biomechanical telemetry, and manage prosthetic maintenance.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn-primary btn-register-action" id="btnRegister" data-i18n="heroCtaRegister">
+            Register Now
+          </button>
+        </div>
+
+      </div>
+    </main>
+
+  </div>
+
+  <section class="stats-bar-section" id="statsSection" aria-label="Clinical and technical impact statistics">
+    <div class="stats-container">
+      <div class="stats-grid">
+
+        <div class="stat-module-card">
+          <div>
+            <div class="stat-header">
+              <span class="stat-tech-tag" data-i18n="stat1Tag">METRIC 01 // ADHERENCE</span>
+              <div class="stat-svg-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="stat-value-wrap">
+              <span class="stat-number" data-target="95" data-i18n="stat1Val">95</span>
+              <span class="stat-suffix">%</span>
+            </div>
+
+            <h3 class="stat-label-title" data-i18n="stat1Title">Home treatment adherence</h3>
+            <p class="stat-subtext-desc" data-i18n="stat1Desc">Rigorous continuity of prescribed therapies and home exercises with biofeedback.</p>
+          </div>
+
+          <div class="stat-benchmark-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+              <polyline points="17 6 23 6 23 12"></polyline>
+            </svg>
+            <span data-i18n="stat1Pill">+42% vs. isolated in-clinic therapy</span>
+          </div>
+        </div>
+
+        <div class="stat-module-card">
+          <div>
+            <div class="stat-header">
+              <span class="stat-tech-tag" data-i18n="stat2Tag">METRIC 02 // IOT TELEMETRY</span>
+              <div class="stat-svg-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4.93 4.93a10 10 0 0 1 14.14 0"></path>
+                  <path d="M7.76 7.76a6 6 0 0 1 8.48 0"></path>
+                  <circle cx="12" cy="12" r="2"></circle>
+                  <path d="M12 14v7"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="stat-value-wrap">
+              <span class="stat-number" data-target="24" data-i18n="stat2Val">24</span>
+              <span class="stat-suffix">/7</span>
+            </div>
+
+            <h3 class="stat-label-title" data-i18n="stat2Title">Continuous telemetric monitoring</h3>
+            <p class="stat-subtext-desc" data-i18n="stat2Desc">Real-time insights on gait cadence, socket comfort, and walking balance.</p>
+          </div>
+
+          <div class="stat-benchmark-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span data-i18n="stat2Pill">Cloud synchronization &lt; 120ms</span>
+          </div>
+        </div>
+
+        <div class="stat-module-card">
+          <div>
+            <div class="stat-header">
+              <span class="stat-tech-tag" data-i18n="stat3Tag">METRIC 03 // PREVENTION</span>
+              <div class="stat-svg-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="stat-value-wrap">
+              <span class="stat-number" data-target="3" data-i18n="stat3Val">3</span>
+              <span class="stat-suffix">x</span>
+            </div>
+
+            <h3 class="stat-label-title" data-i18n="stat3Title">Early postural anomaly detection</h3>
+            <p class="stat-subtext-desc" data-i18n="stat3Desc">Early identification of compensatory tilts before developing chronic lower back pain.</p>
+          </div>
+
+          <div class="stat-benchmark-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span data-i18n="stat3Pill">Precise posture &amp; gait detection</span>
+          </div>
+        </div>
+
+        <div class="stat-module-card">
+          <div>
+            <div class="stat-header">
+              <span class="stat-tech-tag" data-i18n="stat4Tag">METRIC 04 // COMPATIBILITY</span>
+              <div class="stat-svg-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="8" height="8" rx="2"></rect>
+                  <rect x="14" y="2" width="8" height="8" rx="2"></rect>
+                  <rect x="2" y="14" width="8" height="8" rx="2"></rect>
+                  <rect x="14" y="14" width="8" height="8" rx="2"></rect>
+                </svg>
+              </div>
+            </div>
+
+            <div class="stat-value-wrap">
+              <span class="stat-number" data-target="100" data-i18n="stat4Val">100</span>
+              <span class="stat-suffix">%</span>
+            </div>
+
+            <h3 class="stat-label-title" data-i18n="stat4Title">Multi-prosthesis compatibility</h3>
+            <p class="stat-subtext-desc" data-i18n="stat4Desc">Open multi-brand architecture interoperable with mechanical, dynamic, and bionic components.</p>
+          </div>
+
+          <div class="stat-benchmark-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            <span data-i18n="stat4Pill">ISO 10328 &amp; BLE 5.2 Standard</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="challenge-section" id="desafio" aria-label="The Challenge vs. The Prothia Solution">
+    <div class="challenge-container">
+
+      <div class="challenge-header">
+        <div class="challenge-tag">
+          <span class="challenge-tag-line"></span>
+          <span data-i18n="challengeTag">Clinical Background &amp; Reality</span>
+        </div>
+
+        <h2 class="challenge-headline" data-i18n-html="challengeHeadline">
+          The invisible gap in <em>prosthetic rehabilitation</em>
+        </h2>
+
+        <p class="challenge-description" data-i18n="challengeDesc">
+          During the ambulatory phase, the adaptation process loses continuity. The absence of objective gait data in everyday environments leads to preventable secondary complications.
+        </p>
+      </div>
+
+      <div class="challenge-cards-row">
+
+        <article class="medical-problem-card">
+          <div class="problem-card-inner">
+            <div class="problem-meta-top">
+              <span class="problem-num-index" data-i18n="prob1Num">01 // OUTPATIENT ISOLATION</span>
+              <div class="problem-icon-pill" aria-hidden="true">
+
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <line x1="3" y1="3" x2="21" y2="21"></line>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="problem-item-title" data-i18n="prob1Title">Loss of clinical visibility outside the clinic</h3>
+            <p class="problem-item-text" data-i18n="prob1Text">
+              Specialists lack visibility into how patients walk at home. Without timely feedback, prescribed therapies are abandoned or performed incorrectly.
+            </p>
+
+            <div class="problem-clinical-footer">
+              <span class="clinical-indicator-dot amber"></span>
+              <span class="clinical-impact-label" data-i18n="prob1Impact">73% abandonment or incorrect exercise execution</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="medical-problem-card">
+          <div class="problem-card-inner">
+            <div class="problem-meta-top">
+              <span class="problem-num-index" data-i18n="prob2Num">02 // ASSOCIATED PATHOLOGIES</span>
+              <div class="problem-icon-pill" aria-hidden="true">
+
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="problem-item-title" data-i18n="prob2Title">Postural anomalies and asymmetric loading</h3>
+            <p class="problem-item-text" data-i18n="prob2Text">
+              Undetected compensatory movements cause weight imbalances that lead to chronic lower back pain or residual limb discomfort.
+            </p>
+
+            <div class="problem-clinical-footer">
+              <span class="clinical-indicator-dot amber"></span>
+              <span class="clinical-impact-label" data-i18n="prob2Impact">68% develop chronic lower back pain from compensation</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="medical-problem-card">
+          <div class="problem-card-inner">
+            <div class="problem-meta-top">
+              <span class="problem-num-index" data-i18n="prob3Num">03 // INTER-INSTITUTIONAL DISCONNECT</span>
+              <div class="problem-icon-pill" aria-hidden="true">
+
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="6" cy="6" r="3"></circle>
+                  <circle cx="18" cy="6" r="3"></circle>
+                  <circle cx="12" cy="18" r="3"></circle>
+                  <line x1="8.5" y1="7.5" x2="15.5" y2="7.5" stroke-dasharray="2 2"></line>
+                  <line x1="7.5" y1="8.5" x2="10.5" y2="15.5" stroke-dasharray="2 2"></line>
+                  <line x1="16.5" y1="8.5" x2="13.5" y2="15.5" stroke-dasharray="2 2"></line>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="problem-item-title" data-i18n="prob3Title">Fragmented multidisciplinary care team</h3>
+            <p class="problem-item-text" data-i18n="prob3Text">
+              Communication between patients, rehabilitation clinics, and orthopedic centers is reactive and disjointed, hindering timely adjustments.
+            </p>
+
+            <div class="problem-clinical-footer">
+              <span class="clinical-indicator-dot teal"></span>
+              <span class="clinical-impact-label" data-i18n="prob3Impact">Delayed prosthetic adjustments &amp; fragmented medical history</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="solution-clinical-panel">
+
+        <div class="solution-grid-content">
+
+          <div class="solution-info-col">
+            <div class="solution-tag">
+              <span class="solution-tag-line"></span>
+              <span data-i18n="solBannerTag">The Prothia Connected Standard</span>
+            </div>
+
+            <h3 class="solution-headline" data-i18n="solBannerHeadline">
+              A continuous ecosystem bridging clinic, home, and orthopedics
+            </h3>
+
+            <p class="solution-copy" data-i18n="solBannerCopy">
+              Prothia connects lightweight, comfortable sensors with an intuitive mobile application, transforming home recovery into coordinated, safe, and data-backed rehabilitation.
+            </p>
+
+            <div class="solution-clinical-pillars">
+
+              <div class="clinical-pillar-row">
+                <div class="pillar-bullet-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <div class="pillar-text-wrap">
+                  <h4 class="pillar-heading" data-i18n="solPillar1Title">Continuous Gait Tracking</h4>
+                  <p class="pillar-subtext" data-i18n="solPillar1Desc">Constant recording of steps, walking cadence, bilateral balance, and real-world weight distribution.</p>
+                </div>
+              </div>
+
+              <div class="clinical-pillar-row">
+                <div class="pillar-bullet-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <div class="pillar-text-wrap">
+                  <h4 class="pillar-heading" data-i18n="solPillar2Title">Early Asymmetry Detection</h4>
+                  <p class="pillar-subtext" data-i18n="solPillar2Desc">Timely notifications for poor posture or overload to protect the spine and prevent sores or chronic pain.</p>
+                </div>
+              </div>
+
+              <div class="clinical-pillar-row">
+                <div class="pillar-bullet-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <div class="pillar-text-wrap">
+                  <h4 class="pillar-heading" data-i18n="solPillar3Title">Unified Medical Information</h4>
+                  <p class="pillar-subtext" data-i18n="solPillar3Desc">Shared medical records in one secure hub accessible to the patient, treating physician, and orthotist.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="solution-visual-col">
+            <div class="medical-console-dock">
+
+              <div class="console-header-bar">
+                <div class="console-live-badge">
+                  <span class="console-pulse-indicator"></span>
+                  <span data-i18n="consoleLiveBadge">Active Clinical Synchronization</span>
+                </div>
+                <span class="console-protocol-badge" data-i18n="consoleProtocolBadge">Secure Wireless Connection</span>
+              </div>
+
+              <div class="console-actors-stream">
+
+                <div class="actor-stream-card">
+                  <div class="actor-role-header">
+                    <span class="actor-tag" data-i18n="consoleActor1Tag">01 // PATIENT AT HOME</span>
+                    <span class="actor-metric-pill" data-i18n="consoleActor1Metric">98 steps/min</span>
+                  </div>
+                  <div class="actor-name-title" data-i18n="consoleActor1Title">Daily Home Monitoring</div>
+                  <div class="actor-details-row">
+                    <span data-i18n="consoleActor1Detail">Continuous recording</span>
+                    <span class="actor-highlight-text" data-i18n="consoleActor1Highlight">Symmetry 94% (Optimal)</span>
+                  </div>
+                </div>
+
+                <div class="stream-connector-line" aria-hidden="true">
+                  <div class="stream-pulse-dot"></div>
+                </div>
+
+                <div class="actor-stream-card">
+                  <div class="actor-role-header">
+                    <span class="actor-tag" data-i18n="consoleActor2Tag">02 // REHABILITATION CLINIC</span>
+                    <span class="actor-metric-pill" data-i18n="consoleActor2Metric">Active Supervision</span>
+                  </div>
+                  <div class="actor-name-title" data-i18n-html="consoleActor2Title">Physiatry &amp; Physical Therapy</div>
+                  <div class="actor-details-row">
+                    <span data-i18n="consoleActor2Detail">Evolution tracking</span>
+                    <span class="actor-highlight-text" data-i18n="consoleActor2Highlight">Prescription up to date</span>
+                  </div>
+                </div>
+
+                <div class="stream-connector-line" aria-hidden="true">
+                  <div class="stream-pulse-dot"></div>
+                </div>
+
+                <div class="actor-stream-card">
+                  <div class="actor-role-header">
+                    <span class="actor-tag" data-i18n="consoleActor3Tag">03 // ORTHOPEDIC CENTER</span>
+                    <span class="actor-metric-pill" data-i18n="consoleActor3Metric">Socket Adjusted</span>
+                  </div>
+                  <div class="actor-name-title" data-i18n="consoleActor3Title">Specialized Prosthetic Workshop</div>
+                  <div class="actor-details-row">
+                    <span data-i18n="consoleActor3Detail">Dynamic socket fitting</span>
+                    <span class="actor-highlight-text" data-i18n="consoleActor3Highlight">Preventive maintenance</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="console-footer-note">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+                <span data-i18n="consoleFooterNote">Interoperable platform validated for clinical and outpatient environments</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="solutions-section" id="soluciones" aria-label="Solutions by Target Segment">
+    <div class="solutions-container">
+
+      <div class="solutions-header">
+        <div class="solutions-tag">
+          <span class="solutions-tag-line"></span>
+          <span data-i18n="solutionsTag">Specialized Solutions</span>
+        </div>
+
+        <h2 class="solutions-headline" data-i18n="solutionsHeadline">
+          A tailored solution for every stage of recovery
+        </h2>
+
+        <p class="solutions-description" data-i18n="solutionsDesc">
+          Connecting prosthetic users, doctors guiding rehabilitation, and orthotists providing technical support within a single integrated platform.
+        </p>
+      </div>
+
+      <div class="solutions-tabs-nav" role="tablist" aria-label="Clinical profile selector">
+        <button class="solutions-tab-btn active" role="tab" aria-selected="true" aria-controls="panel-patients" id="tab-patients" data-tab="patients">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <span data-i18n="tabPatient">For Patients</span>
+        </button>
+
+        <button class="solutions-tab-btn" role="tab" aria-selected="false" aria-controls="panel-clinics" id="tab-clinics" data-tab="clinics">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          <span data-i18n-html="tabClinics">For Clinics &amp; Therapists</span>
+        </button>
+
+        <button class="solutions-tab-btn" role="tab" aria-selected="false" aria-controls="panel-ortho" id="tab-ortho" data-tab="ortho">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+          </svg>
+          <span data-i18n="tabOrtho">For Orthopedic Centers</span>
+        </button>
+      </div>
+
+      <div class="solutions-panels-wrapper">
+
+        <div class="solution-tab-panel active" id="panel-patients" role="tabpanel" aria-labelledby="tab-patients">
+          <div class="solution-panel-layout">
+
+            <div class="solution-panel-info">
+              <span class="panel-role-pill" data-i18n="solPatPill">FOR YOU AND YOUR FAMILY</span>
+
+              <h3 class="panel-section-title" data-i18n="solPatTitle">
+                Guiding every step with total peace of mind
+              </h3>
+
+              <p class="panel-section-desc" data-i18n="solPatDesc">
+                Regaining walking confidence is a journey supported at every step. Prothia accompanies you daily with an easy-to-use app, safeguarding your posture and keeping your specialist close.
+              </p>
+
+              <div class="panel-benefits-list">
+                <div class="panel-benefit-item">
+                  <div class="benefit-check-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <span data-i18n-html="solPatPoint1"><strong>Gentle posture alerts:</strong> Timely notifications if you tilt or overload your sound leg, protecting your back and avoiding strain.</span>
+                </div>
+
+                <div class="panel-benefit-item">
+                  <div class="benefit-check-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <span data-i18n-html="solPatPoint2"><strong>Simple exercises at your pace:</strong> Follow specialist-recommended routines on your phone in the comfort of your home, pressure-free.</span>
+                </div>
+
+                <div class="panel-benefit-item">
+                  <div class="benefit-check-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <span data-i18n-html="solPatPoint3"><strong>Your doctor always informed:</strong> Your physician monitors your progress remotely, answering questions without requiring frequent travel.</span>
+                </div>
+              </div>
+
+              <div class="clinical-quote-card">
+                <div class="quote-symbol" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                  </svg>
+                </div>
+                <div class="quote-text-wrap">
+                  <p class="quote-body" data-i18n="solPatQuote">
+                    “Having the app brought me immense peace of mind. My family and I know I'm stepping correctly, and my doctor can see my daily progress.”
+                  </p>
+                  <div class="quote-author">
+                    <strong data-i18n="solPatAuthor">Carlos Mendoza</strong>
+                    <span data-i18n="solPatAuthorRole">Prosthesis user</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="solution-panel-preview">
+              <div class="clinical-device-card">
+
+                <div class="card-device-top">
+                  <div class="device-status-badge">
+                    <span class="live-dot-pulse"></span>
+                    <span data-i18n="solPatCardStatus">HELLO, CARLOS</span>
+                  </div>
+                  <span class="device-protocol-tag" data-i18n="solPatCardStage">Week 6 of recovery</span>
+                </div>
+
+                <div class="device-adherence-banner">
+                  <div class="adherence-stat-number">
+                    <span class="stat-big">88%</span>
+                    <span class="stat-small" data-i18n="solPatKpi1Lbl">Weekly progress</span>
+                  </div>
+                  <div class="adherence-status-pill">
+                    <span class="status-chip chip-green" data-i18n="solPatKpi1Sub">5 of 6 days completed</span>
+                  </div>
+                </div>
+
+                <div class="current-exercise-module">
+                  <div class="exercise-header">
+                    <div>
+                      <span class="exercise-badge" data-i18n="solPatExBadge">RECOMMENDED ACTIVITY</span>
+                      <h4 class="exercise-title" data-i18n="solPatExTitle">Gentle walk at home</h4>
+                    </div>
+                    <span class="exercise-time">18 / 20 min</span>
+                  </div>
+
+                  <div class="exercise-metrics-grid">
+                    <div class="metric-mini-box">
+                      <span class="mini-label" data-i18n="solPatMini1">Cadence</span>
+                      <span class="mini-val" data-i18n="solPatMini1Val">98 steps/min</span>
+                    </div>
+                    <div class="metric-mini-box">
+                      <span class="mini-label" data-i18n="solPatMini2">Posture</span>
+                      <span class="mini-val text-emerald" data-i18n="solPatMini2Val">Aligned</span>
+                    </div>
+                    <div class="metric-mini-box">
+                      <span class="mini-label" data-i18n="solPatMini3">Support</span>
+                      <span class="mini-val" data-i18n="solPatMini3Val">Uniform</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-device-footer">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                  <span data-i18n="solPatFooter">Caring remote supervision from your specialist</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="solution-tab-panel" id="panel-clinics" role="tabpanel" aria-labelledby="tab-clinics">
+          <div class="solution-panel-layout">
+
+            <div class="solution-panel-info">
+              <span class="panel-role-pill" data-i18n-html="solCliPill">FOR CLINICS &amp; PHYSIOTHERAPISTS</span>
+
+              <h3 class="panel-section-title" data-i18n="solCliTitle">
+                Continuous outpatient supervision powered by clear clinical data
+              </h3>
+
+              <p class="panel-section-desc" data-i18n="solCliDesc">
+                Monitor patient recovery while they are at home. Identify imbalances before they become harmful habits and optimize in-person sessions with reliable objective data.
+              </p>
+
+              <div class="panel-benefits-list">
+                <div class="panel-benefit-item">
+                  <div class="benefit-check-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <span data-i18n-html="solCliPoint1"><strong>Full home visibility:</strong> Track daily step counts, exercise adherence, and weekly balance evolution.</span>
+                </div>
+
+                <div class="panel-benefit-item">
+                  <div class="benefit-check-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <span data-i18n-html="solCliPoint2"><strong>Early compensation detection:</strong> Identify limping or excess loading on the sound limb before lower back pain develops.</span>
+                </div>
+
+                <div class="panel-benefit-item">
+                  <div class="benefit-check-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <span data-i18n-html="solCliPoint3"><strong>Instant clinical reports:</strong> Generate comprehensive recovery summaries for medical committees, patients, or insurers.</span>
+                </div>
+              </div>
+
+              <div class="clinical-quote-card">
+                <div class="quote-symbol" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                  </svg>
+                </div>
+                <div class="quote-text-wrap">
+                  <p class="quote-body" data-i18n="solCliQuote">
+                    “Being able to see how patients walk at home allows us to adjust therapies in time and prevent poor postural habits.”
+                  </p>
+                  <div class="quote-author">
+                    <strong data-i18n="solCliAuthor">Dr. Mariana Silva</strong>
+                    <span data-i18n-html="solCliAuthorRole">Physiatrist &amp; Rehabilitation Physician</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="solution-panel-preview">
+              <div class="clinical-device-card">
+
+                <div class="card-device-top">
+                  <div class="device-status-badge">
+                    <span class="live-dot-pulse"></span>
+                    <span data-i18n="solCliCardStatus">PATIENT TRACKING</span>
+                  </div>
+                  <span class="device-protocol-tag" data-i18n="solCliCardBadge">24 Active</span>
+                </div>
+
+                <div class="clinical-roster-module">
+                  <div class="roster-header-row">
+                    <span data-i18n="solCliCol1">Patient</span>
+                    <span data-i18n="solCliCol2">Status</span>
+                    <span style="text-align: right;" data-i18n="solCliCol3">Balance</span>
+                  </div>
+
+                  <div class="roster-list">
+                    <div class="roster-item">
+                      <div class="roster-patient-meta">
+                        <span class="patient-name">Carlos Mendoza</span>
+                        <span class="patient-sub" data-i18n="solCliP1Sub">Week 6 of recovery</span>
+                      </div>
+                      <span class="status-chip chip-green" data-i18n="solCliP1Status">Stable</span>
+                      <span class="metric-val text-emerald">94%</span>
+                    </div>
+
+                    <div class="roster-item">
+                      <div class="roster-patient-meta">
+                        <span class="patient-name">Lucía Fernández</span>
+                        <span class="patient-sub" data-i18n="solCliP2Sub">Week 3 of recovery</span>
+                      </div>
+                      <span class="status-chip chip-amber" data-i18n="solCliP2Status">Slight tilt</span>
+                      <span class="metric-val">82%</span>
+                    </div>
+
+                    <div class="roster-item">
+                      <div class="roster-patient-meta">
+                        <span class="patient-name">Jorge Arrieta</span>
+                        <span class="patient-sub" data-i18n="solCliP3Sub">Week 10 of recovery</span>
+                      </div>
+                      <span class="status-chip chip-green" data-i18n="solCliP3Status">Excellent</span>
+                      <span class="metric-val text-emerald">96%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="clinical-summary-module">
+                  <div class="summary-metric-row">
+                    <div class="sum-box">
+                      <span class="sum-title" data-i18n="solCliSum1Title">Overall Compliance</span>
+                      <span class="sum-number text-emerald">91%</span>
+                    </div>
+                    <div class="sum-box">
+                      <span class="sum-title" data-i18n="solCliSum2Title">Alertas Atendidas</span>
+                      <span class="sum-number" data-i18n="solCliSum2Val">Up to date</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-device-footer">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                  </svg>
+                  <span data-i18n="solCliFooter">Medical data protection and guaranteed confidentiality</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="solution-tab-panel" id="panel-ortho" role="tabpanel" aria-labelledby="tab-ortho">
+          <div class="solution-panel-layout">
+
+            <div class="solution-panel-info">
+              <span class="panel-role-pill" data-i18n="solOrtPill">FOR ORTHOPEDIC CENTERS</span>
+
+              <h3 class="panel-section-title" data-i18n="solOrtTitle">
+                Preventive care and extended lifespan for every prosthesis
+              </h3>
+
+              <p class="panel-section-desc" data-i18n="solOrtDesc">
+                Monitor the entire operational lifecycle of each prosthesis with real-world impact and usage data. Anticipate maintenance, prevent mechanical failures, and ensure the socket remains comfortable.
+              </p>
+
+              <div class="panel-benefits-list">
+                <div class="panel-benefit-item">
+                  <div class="benefit-check-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <span data-i18n-html="solOrtPoint1"><strong>Wear &amp; impact monitoring:</strong> Track cumulative steps and impacts to schedule component replacements before failure.</span>
+                </div>
+
+                <div class="panel-benefit-item">
+                  <div class="benefit-check-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <span data-i18n-html="solOrtPoint2"><strong>Socket fit &amp; comfort:</strong> Detect fitting issues early as the residual limb changes volume, preventing pressure sores.</span>
+                </div>
+
+                <div class="panel-benefit-item">
+                  <div class="benefit-check-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <span data-i18n-html="solOrtPoint3"><strong>Universal compatibility:</strong> Open interoperability with mechanical, dynamic, and electronic prostheses across manufacturers.</span>
+                </div>
+              </div>
+
+              <div class="clinical-quote-card">
+                <div class="quote-symbol" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                  </svg>
+                </div>
+                <div class="quote-text-wrap">
+                  <p class="quote-body" data-i18n="solOrtQuote">
+                    “Tracking real usage and mechanical impact helps us conduct timely maintenance and prevent unexpected failures.”
+                  </p>
+                  <div class="quote-author">
+                    <strong data-i18n-html="solOrtAuthor">Roberto Valdivia, P&amp;O Eng.</strong>
+                    <span data-i18n="solOrtAuthorRole">Orthopedic Specialist</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="solution-panel-preview">
+              <div class="clinical-device-card">
+
+                <div class="card-device-top">
+                  <div class="device-status-badge">
+                    <span class="live-dot-pulse"></span>
+                    <span data-i18n="solOrtCardStatus">PROSTHESIS STATUS</span>
+                  </div>
+                  <span class="device-protocol-tag" data-i18n="solOrtCardBadge">Transtibial Prosthesis</span>
+                </div>
+
+                <div class="ortho-telemetry-module">
+                  <div class="module-title-row">
+                    <span data-i18n="solOrtCycleTitle">Cumulative steps &amp; impacts</span>
+                    <span class="highlight-text" data-i18n="solOrtCycleSub">Lifespan: 84%</span>
+                  </div>
+
+                  <div class="cycles-counter-wrap">
+                    <span class="cycles-number">840,000</span>
+                    <span class="cycles-limit" data-i18n="solOrtCycleLimit">/ 1,000,000 estimated</span>
+                  </div>
+
+                  <div class="lifecycle-bar-track">
+                    <div class="lifecycle-bar-fill" style="width: 84%;"></div>
+                  </div>
+                </div>
+
+                <div class="socket-diagnostics-module">
+                  <div class="socket-row">
+                    <div class="socket-info">
+                      <span class="socket-label" data-i18n="solOrtAlignLbl">Walking alignment</span>
+                      <span class="socket-val text-emerald" data-i18n="solOrtAlignVal">Correct and stable</span>
+                    </div>
+                    <span class="status-chip chip-green" data-i18n="solOrtAlignChip">Aligned</span>
+                  </div>
+
+                  <div class="socket-row">
+                    <div class="socket-info">
+                      <span class="socket-label" data-i18n="solOrtFitLbl">Socket fit</span>
+                      <span class="socket-val" data-i18n="solOrtFitVal">Uniform, comfortable pressure</span>
+                    </div>
+                    <span class="status-chip chip-green" data-i18n="solOrtFitChip">Stable</span>
+                  </div>
+                </div>
+
+                <div class="maintenance-alert-box">
+                  <div class="maint-icon-wrap" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div class="maint-text">
+                    <span class="maint-title" data-i18n="solOrtMaintTitle">Next Suggested Checkup</span>
+                    <span class="maint-sub" data-i18n="solOrtMaintSub">In 14 days (routine inspection for optimal performance).</span>
+                  </div>
+                </div>
+
+                <div class="card-device-footer">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                  <span data-i18n="solOrtFooter">Technical data shared with orthopedic workshop</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
