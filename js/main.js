@@ -26,10 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const registrationUrl = 'https://prothia-web-app-7003f.web.app/';
   const btnRegisterList = document.querySelectorAll('.btn-register-action');
   btnRegisterList.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
+    btn.addEventListener('click', () => {
+      window.location.assign(registrationUrl);
     });
   });
 
