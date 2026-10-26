@@ -370,7 +370,7 @@ const translations = {
     ctaBannerTrust1: "Permanent free access for amputee patients",
     ctaBannerTrust2: "14-day institutional pilot trial for clinics",
     ctaBannerTrust3: "Full biomedical data security (AES-256)",
-    ctaBannerBtn: "View Plans & Pricing",
+    ctaBannerBtn: "Open Web App",
     ctaBannerSecBtn: "Request Clinical Demo",
 
     footBrandDesc: "Web platform for biomechanical telemetry and remote prosthetic rehabilitation monitoring, connecting patients, clinics, and orthopedics.",
@@ -780,7 +780,7 @@ const translations = {
     ctaBannerTrust1: "Acceso gratuito permanente para pacientes",
     ctaBannerTrust2: "Prueba piloto institucional de 14 días para clínicas",
     ctaBannerTrust3: "Seguridad y privacidad médica garantizada (AES-256)",
-    ctaBannerBtn: "Ver Planes y Precios",
+    ctaBannerBtn: "Entrar a la app web",
     ctaBannerSecBtn: "Solicitar Demostración Clínica",
 
     footBrandDesc: "Plataforma web de monitoreo biomecánico y seguimiento remoto de rehabilitación protésica para articulación continua de pacientes, clínicas y ortopedias.",
