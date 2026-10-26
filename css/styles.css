@@ -3492,6 +3492,68 @@ button {
   color: #F87171;
 }
 
+.legal-policy-section {
+  background: linear-gradient(180deg, rgba(2, 18, 32, 0.98), rgba(7, 24, 39, 0.98));
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 4rem 0 1.5rem;
+}
+
+.legal-policy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.legal-policy-card {
+  background: rgba(148, 163, 184, 0.04);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.15);
+}
+
+.legal-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-teal);
+  background: rgba(15, 118, 110, 0.12);
+  border: 1px solid rgba(45, 212, 191, 0.2);
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.legal-policy-card h3 {
+  font-size: 1.4rem;
+  margin: 0 0 0.75rem;
+  color: #FFFFFF;
+}
+
+.legal-policy-card p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #CBD5E1;
+  margin: 0 0 1rem;
+}
+
+.legal-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #7DD3FC;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.legal-card-link:hover {
+  color: #BAE6FD;
+}
+
 .site-footer {
   background-color: #021220;
   color: #CBD5E1;
@@ -4113,6 +4175,9 @@ button {
     grid-template-columns: 1fr;
     max-width: 500px;
     margin: 0 auto;
+  }
+  .legal-policy-grid {
+    grid-template-columns: 1fr;
   }
   .footer-columns-grid {
     grid-template-columns: 1fr;
