@@ -3540,6 +3540,19 @@ button {
   margin: 0 0 1rem;
 }
 
+.legal-card-list {
+  margin: 0 0 1.1rem 1.1rem;
+  padding: 0;
+  list-style: disc;
+  color: #CBD5E1;
+}
+
+.legal-card-list li {
+  font-size: 0.84rem;
+  line-height: 1.7;
+  margin-bottom: 0.55rem;
+}
+
 .legal-card-link {
   display: inline-flex;
   align-items: center;

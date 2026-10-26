@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prothia | Informed Consent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Newsreader:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --bg:#021220; --line:rgba(255,255,255,0.1); --text:#e2e8f0; --muted:#cbd5e1; --primary:#38bdf8; --teal:#2dd4bf; --white:#fff; }
+      * { box-sizing: border-box; }
+      body { margin:0; font-family:'Montserrat',sans-serif; background:linear-gradient(180deg,#021220 0%,#0b1d2a 100%); color:var(--text); }
+      .legal-shell { max-width:980px; margin:0 auto; padding:48px 20px 80px; }
+      .legal-topbar { display:flex; justify-content:space-between; align-items:center; gap:16px; padding-bottom:24px; border-bottom:1px solid var(--line); margin-bottom:32px; }
+      .brand { display:flex; align-items:center; gap:12px; font-weight:800; letter-spacing:.08em; color:var(--white); }
+      .brand-mark { display:inline-flex; width:38px; height:38px; justify-content:center; align-items:center; border-radius:12px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.09); }
+      .home-link { color:var(--primary); text-decoration:none; font-weight:600; }
+      .legal-card { background:rgba(255,255,255,0.02); border:1px solid var(--line); border-radius:20px; padding:32px 28px; box-shadow:0 18px 30px rgba(2,18,32,0.2); }
+      h1,h2,h3 { margin-top:0; color:var(--white); }
+      h1 { font-size:clamp(2rem, 4vw, 3rem); margin-bottom:12px; }
+      h2 { font-size:1.2rem; margin:28px 0 12px; }
+      p, li { color:var(--muted); line-height:1.7; font-size:1rem; }
+      ul { padding-left:18px; }
+      .lang-block + .lang-block { margin-top: 36px; }
+      .lang-label { display:inline-block; margin-bottom:12px; padding:6px 10px; background:rgba(45,212,191,0.12); border:1px solid rgba(45,212,191,0.2); border-radius:999px; color:var(--teal); font-weight:700; font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; }
+      @media (max-width: 640px) { .legal-topbar{flex-direction:column; align-items:flex-start;} .legal-card{padding:24px 18px;} }
+    </style>
+  </head>
+  <body>
+    <div class="legal-shell">
+      <div class="legal-topbar">
+        <div class="brand"><span class="brand-mark">P</span> PROTHIA</div>
+        <a class="home-link" href="index.html">← Back to Home</a>
+      </div>
+
+      <div class="legal-card">
+        <div class="lang-block">
+          <span class="lang-label">English</span>
+          <h1>Informed Consent</h1>
+          <p>Before using Prothia for rehabilitation or clinical monitoring, users should be informed about the types of data collected, how they will be used, and who may access them.</p>
+          <p>Consent is required for the use of sensitive health information and monitoring features that support rehabilitation follow-up. Users may choose whether to allow tracking, remote review, and data sharing with the relevant care team.</p>
+
+          <h2>What is being collected</h2>
+          <ul>
+            <li>Mobility and gait measurements.</li>
+            <li>Exercise adherence and rehabilitation progress.</li>
+            <li>Safety alerts and device usage information.</li>
+            <li>Clinical notes and care coordination data when necessary.</li>
+          </ul>
+
+          <h2>Purpose of processing</h2>
+          <p>Data is processed to improve rehabilitation adherence, provide remote supervision, support clinical decision-making, and develop a safer and more effective prosthetic care pathway.</p>
+        </div>
+
+        <div class="lang-block">
+          <span class="lang-label">Español</span>
+          <h1>Consentimiento Informado</h1>
+          <p>Antes de usar Prothia para rehabilitación o seguimiento clínico, los usuarios deben ser informados sobre qué tipo de datos se recopilan, cómo se utilizan y quién puede acceder a ellos.</p>
+          <p>Se requiere consentimiento para el uso de información de salud sensible y para funciones de monitoreo que apoyan el seguimiento de la rehabilitación. Los usuarios pueden decidir si autorizar el seguimiento, la revisión remota y el uso compartido de datos con el equipo de atención correspondiente.</p>
+
+          <h2>Qué se recopila</h2>
+          <ul>
+            <li>Mediciones de movilidad y marcha.</li>
+            <li>Adherencia a ejercicios y progreso de rehabilitación.</li>
+            <li>Alertas de seguridad e información de uso del dispositivo.</li>
+            <li>Notas clínicas y datos de coordinación asistencial cuando sea necesario.</li>
+          </ul>
+
+          <h2>Finalidad del tratamiento</h2>
+          <p>Los datos se procesan para mejorar la adherencia terapéutica, brindar supervisión remota, apoyar la toma de decisiones clínicas y desarrollar una ruta de atención protésica más segura y efectiva.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
