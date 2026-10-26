@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prothia | Accessibility</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Newsreader:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --bg:#021220; --line:rgba(255,255,255,0.1); --text:#e2e8f0; --muted:#cbd5e1; --primary:#38bdf8; --teal:#2dd4bf; --white:#fff; }
+      * { box-sizing: border-box; }
+      body { margin:0; font-family:'Montserrat',sans-serif; background:linear-gradient(180deg,#021220 0%,#0b1d2a 100%); color:var(--text); }
+      .legal-shell { max-width:980px; margin:0 auto; padding:48px 20px 80px; }
+      .legal-topbar { display:flex; justify-content:space-between; align-items:center; gap:16px; padding-bottom:24px; border-bottom:1px solid var(--line); margin-bottom:32px; }
+      .brand { display:flex; align-items:center; gap:12px; font-weight:800; letter-spacing:.08em; color:var(--white); }
+      .brand-mark { display:inline-flex; width:38px; height:38px; justify-content:center; align-items:center; border-radius:12px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.09); }
+      .home-link { color:var(--primary); text-decoration:none; font-weight:600; }
+      .legal-card { background:rgba(255,255,255,0.02); border:1px solid var(--line); border-radius:20px; padding:32px 28px; box-shadow:0 18px 30px rgba(2,18,32,0.2); }
+      h1,h2,h3 { margin-top:0; color:var(--white); }
+      h1 { font-size:clamp(2rem, 4vw, 3rem); margin-bottom:12px; }
+      h2 { font-size:1.2rem; margin:28px 0 12px; }
+      p, li { color:var(--muted); line-height:1.7; font-size:1rem; }
+      ul { padding-left:18px; }
+      .lang-block + .lang-block { margin-top: 36px; }
+      .lang-label { display:inline-block; margin-bottom:12px; padding:6px 10px; background:rgba(45,212,191,0.12); border:1px solid rgba(45,212,191,0.2); border-radius:999px; color:var(--teal); font-weight:700; font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; }
+      @media (max-width: 640px) { .legal-topbar{flex-direction:column; align-items:flex-start;} .legal-card{padding:24px 18px;} }
+    </style>
+  </head>
+  <body>
+    <div class="legal-shell">
+      <div class="legal-topbar">
+        <div class="brand"><span class="brand-mark">P</span> PROTHIA</div>
+        <a class="home-link" href="index.html">← Back to Home</a>
+      </div>
+
+      <div class="legal-card">
+        <div class="lang-block">
+          <span class="lang-label">English</span>
+          <h1>Accessibility Statement</h1>
+          <p>Prothia is committed to making its platform accessible to as many users as possible, including people with visual, motor, cognitive, or hearing impairments.</p>
+          <p>We aim to follow recognized accessibility principles and maintain a digital experience that is readable, navigable, understandable, and compatible with assistive technologies.</p>
+
+          <h2>Accessibility commitments</h2>
+          <ul>
+            <li>Clear navigation and structured page layout.</li>
+            <li>Readable contrast and legible typography.</li>
+            <li>Semantic headings, labels, and controls for assistive technology compatibility.</li>
+            <li>Keyboard-friendly interactions where feasible.</li>
+          </ul>
+
+          <h2>Continuous improvement</h2>
+          <p>We regularly review our user flows and interfaces to identify barriers, improve usability, and ensure that medical and rehabilitation information remains understandable and accessible to diverse users.</p>
+        </div>
+
+        <div class="lang-block">
+          <span class="lang-label">Español</span>
+          <h1>Declaración de Accesibilidad</h1>
+          <p>Prothia se compromete a hacer accesible su plataforma al mayor número de usuarios posible, incluyendo personas con discapacidades visuales, motoras, cognitivas o auditivas.</p>
+          <p>Buscamos seguir principios reconocidos de accesibilidad y mantener una experiencia digital legible, navegable, comprensible y compatible con tecnologías de asistencia.</p>
+
+          <h2>Compromisos de accesibilidad</h2>
+          <ul>
+            <li>Navegación clara y estructura de contenido organizada.</li>
+            <li>Contraste legible y tipografía fácil de leer.</li>
+            <li>Encabezados, etiquetas y controles semánticos compatibles con tecnologías de asistencia.</li>
+            <li>Interacciones operables con teclado cuando es viable.</li>
+          </ul>
+
+          <h2>Mejora continua</h2>
+          <p>Revisamos periódicamente nuestros flujos de usuario e interfaces para identificar barreras, mejorar la usabilidad y garantizar que la información médica y de rehabilitación permanezca comprensible y accesible para diversos perfiles de usuario.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
