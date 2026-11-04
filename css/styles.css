@@ -3773,6 +3773,41 @@ button {
   gap: 1rem;
 }
 
+.footer-lang-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-selector-btn.lang-selector-footer {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #CBD5E1;
+  padding: 0.45rem 0.85rem;
+}
+
+.lang-selector-btn.lang-selector-footer:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--color-teal);
+  color: #FFFFFF;
+  box-shadow: 0 2px 10px rgba(45, 212, 191, 0.2);
+}
+
+.lang-selector-btn.lang-selector-footer .lang-badge {
+  color: #94A3B8;
+  opacity: 0.6;
+}
+
+.lang-selector-btn.lang-selector-footer .lang-badge.active {
+  color: var(--color-teal);
+  opacity: 1;
+  font-weight: 700;
+}
+
+.lang-selector-btn.lang-selector-footer .lang-divider {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .solution-info-col {
   display: flex;
   flex-direction: column;
