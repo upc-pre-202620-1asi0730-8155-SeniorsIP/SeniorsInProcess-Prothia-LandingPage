@@ -8,22 +8,80 @@ follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 
 ### Added
 
-- Responsive Prothia landing page with an animated hero, audience-specific
-  solutions, product features, subscription plans, demo and team videos,
-  testimonials, and FAQs.
-- English and Spanish language support across the landing page and legal pages,
-  with the selected language saved between visits.
-- Dedicated terms of service, privacy, accessibility, informed consent, and
-  medical data security pages, linked from the site footer.
-- Demo request form and registration calls to action.
+- Planned improvements to onboarding, conversion tracking, and supporting
+  marketing assets for ongoing product growth.
 
 ### Changed
 
-- Registration calls to action link to the hosted Prothia web application, with
-  localized button text.
-- Consolidated the site styles in `css/styles.css`, including responsive
-  navigation, footer, and language controls.
+- Ongoing refinements to messaging, UX polish, and accessibility improvements
+  as the Prothia landing experience evolves.
+
+## [1.0.0] - 2026-11-8
+
+### Added
+
+- Initial public release of the Prothia landing page experience.
+- Responsive marketing site with an animated hero section, audience-specific
+  value propositions, feature highlights, plans, and trust-building sections.
+- English and Spanish localization across the landing page and legal documents,
+  including persistent language selection between visits.
+- Dedicated legal and compliance pages for terms of service, privacy policy,
+  accessibility, informed consent, and medical data security.
+- Demo request and registration calls to action that direct users to the
+  hosted Prothia web application.
+- Footer navigation and supporting content linking to privacy, security, and
+  consent resources.
+
+### Changed
+
+- Consolidated layout and design rules into `css/styles.css` for more maintainable
+  and responsive front-end styling.
+- Updated registration and demo CTAs to use localized copy and to route users to
+  the hosted application experience.
+- Simplified page structure by removing the standalone contact section in favor
+  of clearer conversion-focused landing-page flow.
 
 ### Removed
 
-- The standalone contact section from the landing page.
+- Standalone contact section from the landing page to streamline the conversion
+  journey and align with product-focused messaging.
+
+### Security
+
+- Included explicit legal and data-protection pages to improve transparency and
+  user trust around consent, privacy, and medical data handling.
+
+## [2.0.0] - 2026-11-12
+
+### Added
+
+- Initial public release of the Prothia landing page experience.
+- Responsive marketing site with an animated hero section, audience-specific
+  value propositions, feature highlights, plans, and trust-building sections.
+- English and Spanish localization across the landing page and legal documents,
+  including persistent language selection between visits.
+- Dedicated legal and compliance pages for terms of service, privacy policy,
+  accessibility, informed consent, and medical data security.
+- Demo request and registration calls to action that direct users to the
+  hosted Prothia web application.
+- Footer navigation and supporting content linking to privacy, security, and
+  consent resources.
+
+### Changed
+
+- Consolidated layout and design rules into `css/styles.css` for more maintainable
+  and responsive front-end styling.
+- Updated registration and demo CTAs to use localized copy and to route users to
+  the hosted application experience.
+- Simplified page structure by removing the standalone contact section in favor
+  of clearer conversion-focused landing-page flow.
+
+### Removed
+
+- Standalone contact section from the landing page to streamline the conversion
+  journey and align with product-focused messaging.
+
+### Security
+
+- Included explicit legal and data-protection pages to improve transparency and
+  user trust around consent, privacy, and medical data handling.
