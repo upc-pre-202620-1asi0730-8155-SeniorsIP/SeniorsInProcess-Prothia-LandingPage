@@ -3344,6 +3344,10 @@ button {
   max-width: 620px;
 }
 
+.cta-banner-card .cta-banner-subtitle {
+  margin-bottom: 0;
+}
+
 .cta-trust-list {
   display: flex;
   flex-direction: column;

@@ -368,9 +368,6 @@ const translations = {
     ctaBannerBadge: "PLATFORM ACCESS & PRICING",
     ctaBannerTitle: "Ready to Transform <span class=\"title-serif\">Prosthetic Care?</span>",
     ctaBannerSubtitle: "Choose the access plan that matches your clinic, orthopedic center, or personal rehabilitation goals and connect to continuous biomechanical telemetry.",
-    ctaBannerTrust1: "Permanent free access for amputee patients",
-    ctaBannerTrust2: "14-day institutional pilot trial for clinics",
-    ctaBannerTrust3: "Full biomedical data security (AES-256)",
     ctaBannerBtn: "Join us",
     ctaBannerSecBtn: "Request Clinical Demo",
 
@@ -779,9 +776,6 @@ const translations = {
     ctaBannerBadge: "ACCESO A LA PLATAFORMA Y PLANES",
     ctaBannerTitle: "¿Listo para Transformar la <span class=\"title-serif\">Rehabilitación Protésica?</span>",
     ctaBannerSubtitle: "Elige el modelo de acceso diseñado para tu clínica, centro ortopédico o recuperación personal y comienza a monitorear la marcha con datos objetivos.",
-    ctaBannerTrust1: "Acceso gratuito permanente para pacientes",
-    ctaBannerTrust2: "Prueba piloto institucional de 14 días para clínicas",
-    ctaBannerTrust3: "Seguridad y privacidad médica garantizada (AES-256)",
     ctaBannerBtn: "Unete a nosotros",
     ctaBannerSecBtn: "Solicitar Demostración Clínica",
 
