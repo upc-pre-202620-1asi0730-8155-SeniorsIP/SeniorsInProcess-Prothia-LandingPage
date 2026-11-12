@@ -2289,6 +2289,20 @@ button {
   letter-spacing: 0.05em;
 }
 
+.video-embed-responsive {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000000;
+  display: flex;
+}
+
+.video-embed-responsive iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .video-poster-art {
   aspect-ratio: 16 / 9;
   background: linear-gradient(135deg, #091D33 0%, #041E34 60%, #008C99 100%);
@@ -3328,6 +3342,10 @@ button {
   line-height: 1.6;
   margin-bottom: 1.5rem;
   max-width: 620px;
+}
+
+.cta-banner-card .cta-banner-subtitle {
+  margin-bottom: 0;
 }
 
 .cta-trust-list {
