@@ -143,24 +143,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  const btnPlayVideo = document.getElementById('btnPlayVideo');
-  if (btnPlayVideo) {
-    btnPlayVideo.addEventListener('click', () => {
-      if (modalDemo) {
-        modalDemo.classList.add('active');
-      }
-    });
-  }
-
-  const btnPlayTeamVideo = document.getElementById('btnPlayTeamVideo');
-  if (btnPlayTeamVideo) {
-    btnPlayTeamVideo.addEventListener('click', () => {
-      if (modalDemo) {
-        modalDemo.classList.add('active');
-      }
-    });
-  }
-
   let currentLang = 'en';
 
   const billingSwitch = document.getElementById('billingSwitch');
