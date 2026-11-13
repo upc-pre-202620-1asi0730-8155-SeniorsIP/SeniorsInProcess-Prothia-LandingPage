@@ -51,6 +51,22 @@ follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 - Included explicit legal and data-protection pages to improve transparency and
   user trust around consent, privacy, and medical data handling.
 
+## [2.0.1] - 2026-11-12
+
+### Changed
+
+- Replaced the placeholder media block with a live embedded YouTube product demo
+  to better communicate the Prothia value proposition and improve conversion.
+- Updated the video specification details to reflect the final demo duration and
+  official product presentation context.
+- Refined localized accessibility labels for the embedded video to support both
+  English and Spanish experiences consistently.
+
+### Removed
+
+- Removed the temporary poster-style placeholder treatment that previously served
+  as a stand-in for the product overview video.
+
 ## [2.0.0] - 2026-11-12
 
 ### Added
