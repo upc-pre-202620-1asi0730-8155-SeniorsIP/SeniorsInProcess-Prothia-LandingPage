@@ -327,7 +327,8 @@ const translations = {
     member2Name: "Dextre Flores, Leonardo Felix",
     member3Name: "Salcedo Correa, Carlos Matthew",
     member4Name: "Patricio Farias, Ana Camila",
-    member5Name: "Berrenechea Bustamante, Rafael",
+    member5Name: "Homola, Tomas",
+    member6Name: "Berrenechea Bustamante, Rafael",
     memberCareer: "Software Engineering",
 
     testTag: "EVIDENCE-BASED VALIDATION",
@@ -736,7 +737,8 @@ const translations = {
     member2Name: "Dextre Flores, Leonardo Felix",
     member3Name: "Salcedo Correa, Carlos Matthew",
     member4Name: "Patricio Farias, Ana Camila",
-    member5Name: "Berrenechea Bustamante, Rafael",
+    member5Name: "Homola, Tomas",
+    member6Name: "Berrenechea Bustamante, Rafael",
     memberCareer: "Ingeniería de Software",
 
     testTag: "VALIDACIÓN BASADA EN EVIDENCIA",
