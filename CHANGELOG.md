@@ -1,103 +1,93 @@
 # Changelog
 
-All notable changes to this project are documented in this file. This changelog
-follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
+All notable changes to this project are documented in this file.
+
+This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-### Added
-
-- Planned improvements to onboarding, conversion tracking, and supporting
-  marketing assets for ongoing product growth.
-
-### Changed
-
-- Ongoing refinements to messaging, UX polish, and accessibility improvements
-  as the Prothia landing experience evolves.
-
-## [1.0.0] - 2026-11-8
+## [3.0.1] - 2026-11-24
 
 ### Added
 
-- Initial public release of the Prothia landing page experience.
-- Responsive marketing site with an animated hero section, audience-specific
-  value propositions, feature highlights, plans, and trust-building sections.
-- English and Spanish localization across the landing page and legal documents,
-  including persistent language selection between visits.
-- Dedicated legal and compliance pages for terms of service, privacy policy,
-  accessibility, informed consent, and medical data security.
-- Demo request and registration calls to action that direct users to the
-  hosted Prothia web application.
-- Footer navigation and supporting content linking to privacy, security, and
-  consent resources.
+- Added Tomás Homola to the team section with his profile photo and localized
+  team-member information.
 
 ### Changed
 
-- Consolidated layout and design rules into `css/styles.css` for more maintainable
-  and responsive front-end styling.
-- Updated registration and demo CTAs to use localized copy and to route users to
-  the hosted application experience.
-- Simplified page structure by removing the standalone contact section in favor
-  of clearer conversion-focused landing-page flow.
-
-### Removed
-
-- Standalone contact section from the landing page to streamline the conversion
-  journey and align with product-focused messaging.
-
-### Security
-
-- Included explicit legal and data-protection pages to improve transparency and
-  user trust around consent, privacy, and medical data handling.
+- Updated team-member translation keys so every profile has a stable, unique
+  identifier.
 
 ## [2.0.1] - 2026-11-12
 
 ### Changed
 
-- Replaced the placeholder media block with a live embedded YouTube product demo
-  to better communicate the Prothia value proposition and improve conversion.
-- Updated the video specification details to reflect the final demo duration and
-  official product presentation context.
-- Refined localized accessibility labels for the embedded video to support both
-  English and Spanish experiences consistently.
+- Replaced the placeholder product-video block with an embedded YouTube demo.
+- Updated the product-video duration to 01:24 minutes and refined the official
+  presentation details.
+- Added consistent English and Spanish accessibility labels for the video
+  embed.
 
 ### Removed
 
-- Removed the temporary poster-style placeholder treatment that previously served
-  as a stand-in for the product overview video.
+- Removed the temporary poster-style product-video placeholder and its unused
+  modal playback controls.
 
 ## [2.0.0] - 2026-11-12
 
 ### Added
 
-- Initial public release of the Prothia landing page experience.
-- Responsive marketing site with an animated hero section, audience-specific
-  value propositions, feature highlights, plans, and trust-building sections.
-- English and Spanish localization across the landing page and legal documents,
-  including persistent language selection between visits.
-- Dedicated legal and compliance pages for terms of service, privacy policy,
-  accessibility, informed consent, and medical data security.
-- Demo request and registration calls to action that direct users to the
-  hosted Prothia web application.
-- Footer navigation and supporting content linking to privacy, security, and
-  consent resources.
+- Added an embedded YouTube video to the About the Team section.
+- Added localized English and Spanish accessibility text for team media.
 
 ### Changed
 
-- Consolidated layout and design rules into `css/styles.css` for more maintainable
-  and responsive front-end styling.
-- Updated registration and demo CTAs to use localized copy and to route users to
-  the hosted application experience.
-- Simplified page structure by removing the standalone contact section in favor
-  of clearer conversion-focused landing-page flow.
+- Updated the About the Team media presentation for a clearer, more engaging
+  product experience.
+- Removed trust-item content from the final call-to-action banner.
 
 ### Removed
 
-- Standalone contact section from the landing page to streamline the conversion
-  journey and align with product-focused messaging.
+- Removed the temporary team-video placeholder and the associated modal
+  playback controls.
 
-### Security
+## [1.0.1] - 2026-11-08
 
-- Included explicit legal and data-protection pages to improve transparency and
-  user trust around consent, privacy, and medical data handling.
+### Added
+
+- Added a footer language selector for English and Spanish.
+- Added persisted language selection using browser storage.
+- Applied localization to the security, consent, privacy, terms, and
+  accessibility legal pages.
+
+### Changed
+
+- Updated call-to-action copy and routing so the localized experience directs
+  users to the hosted Prothia web application.
+- Added responsive styling for the footer language controls.
+
+## [1.0.0] - 2026-09-17
+
+### Added
+
+- Released the initial public Prothia landing page.
+- Added an animated responsive hero sequence and dedicated sections for
+  audiences, features, plans, testimonials, team, FAQ, and calls to action.
+- Added English and Spanish internationalization for the landing page.
+- Added standalone terms of service, privacy, accessibility, informed consent,
+  and medical data security pages.
+- Added demo-request and registration calls to action.
+- Added the initial project assets, scripts, styles, and footer navigation.
+
+### Changed
+
+- Consolidated shared front-end styles in `css/styles.css` for responsive,
+  maintainable layout behavior.
+- Updated page interactions and navigation through `js/main.js` and
+  `js/translations.js`.
+
+### Removed
+
+- Removed the standalone contact section in favor of a focused conversion
+  flow.
